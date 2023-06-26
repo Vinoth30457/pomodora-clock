@@ -40,9 +40,11 @@ var t = setInterval(function () {
       seconds = 59;
       min--;
     }
-    clockEL.innerHTML = `${min < 10 ? "0" + min : min}:${
-      seconds < 10 ? "0" + seconds : seconds
-    }`;
+    if (seconds > 0) {
+      clockEL.innerHTML = `${min < 10 ? "0" + min : min}:${
+        seconds < 10 ? "0" + seconds : seconds
+      }`;
+    }
   }
 }, 1000);
 
