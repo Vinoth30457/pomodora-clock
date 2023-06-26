@@ -57,6 +57,7 @@ li {
   border-radius: 1rem;
   gap: 4rem;
 }
+
 .count {
   font-size: 2rem;
   color: #fff;
@@ -64,12 +65,14 @@ li {
   align-items: center;
   gap: 1.5rem;
 }
+
 #plus,
 #minus {
   color: black;
   font-weight: 600;
   cursor: pointer;
 }
+
 .clock {
   font-size: 4rem;
   color: #fff;
@@ -77,10 +80,12 @@ li {
     0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
   color: #fff6a9;
 }
+
 .button-container {
   display: flex;
   gap: 2rem;
 }
+
 .btn-pause,
 .restart {
   padding: 0.5rem 1rem;
@@ -92,20 +97,20 @@ li {
   cursor: pointer;
 }
 
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops) */
 
 @media (min-width: 991px) {
+  .container {
+    width: 35rem;
+  }
 }
 
 /* Extra large devices (large desktops) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
