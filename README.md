@@ -10,5 +10,5 @@ the challenge is to build out this Pomodoro Clock app using the function,time fu
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Vinoth30457/Expense-Tracker.git)
-- Live Site URL: [Click here](https://eloquent-rolypoly-0cb25b.netlify.app)
+- Solution URL: [Click here](https://github.com/Vinoth30457/pomodora-clock.git)
+- Live Site URL: [Click here](https://shiny-malabi-ec8e13.netlify.app)
