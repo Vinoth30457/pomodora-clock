@@ -40,7 +40,7 @@ var t = setInterval(function () {
       seconds = 59;
       min--;
     }
-    if (seconds > 0) {
+    if (seconds >= 0) {
       clockEL.innerHTML = `${min < 10 ? "0" + min : min}:${
         seconds < 10 ? "0" + seconds : seconds
       }`;
